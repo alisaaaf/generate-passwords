@@ -8,7 +8,7 @@ def generate_password(length, chars):
     return ''.join (password)
 
 if __name__ == '__main__':
-    length = int(input('Введите длину пароля '))
-    chars = input('Введите алфавит ')
+    length = int(input('Enter password length: '))
+    chars = input('Enter alphabet: ')
     password = generate_password(length, chars)
     print(password)
